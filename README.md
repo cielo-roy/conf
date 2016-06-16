@@ -1,7 +1,8 @@
 # conf
 
 ## vimrc 
-  contains some offen use setting
+###  contains some offen use setting
+  
   | name | desc | git_url | url
   | --- | --- | --- | ---
   | pathogen | vim plugin manager | https://github.com/tpope/vim-pathogen.git | https://github.com/tpope/vim-pathogen
