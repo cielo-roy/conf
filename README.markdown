@@ -15,8 +15,4 @@
 
 ## setting.jar 
   inteligent J setting
-  
-  | First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
