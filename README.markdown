@@ -3,9 +3,10 @@
 ## vimrc 
   contains some offen use setting
   
-### `pathogen`    
-* vim plugin manager
-  [git_url](https://github.com/tpope/vim-pathogen.git) [git](https://github.com/tpope/vim-pathogen)
+* `pathogen`    
+ vim plugin manager
+  [git_url](https://github.com/tpope/vim-pathogen.git/ "url")
+  [git](https://github.com/tpope/vim-pathogen)
   
 * `ctrlp` open file with name
 #### https://github.com/kien/ctrlp.vim.git          https://github.com/kien/ctrlp.vim 
