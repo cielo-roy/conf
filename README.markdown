@@ -5,11 +5,12 @@
   
 * `pathogen`    
  vim plugin manager
-  [git_url](https://github.com/tpope/vim-pathogen.git/ "url")
+  [git_url](https://github.com/tpope/vim-pathogen.git)
   [git](https://github.com/tpope/vim-pathogen)
   
 * `ctrlp` open file with name
-#### https://github.com/kien/ctrlp.vim.git          https://github.com/kien/ctrlp.vim 
+  [git_url]:https://github.com/kien/ctrlp.vim.git "git"
+  [git]:https://github.com/kien/ctrlp.vim "git"
   
 * `vim-easy-align`
 #### formmat code with defined regular
