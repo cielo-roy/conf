@@ -3,15 +3,15 @@
 ## vimrc 
   contains some offen use setting
   
-* `pathogen` vim plugin manager
-  git_url <https://github.com/tpope/vim-pathogen.git>
-  git <https://github.com/tpope/vim-pathogen>
+* `pathogen` vim plugin manager <br>
+  <https://github.com/tpope/vim-pathogen.git>
+  <https://github.com/tpope/vim-pathogen>
   
-* `ctrlp` open file with name
+* `ctrlp` open file with name <br>
   <https://github.com/kien/ctrlp.vim.git>
   <https://github.com/kien/ctrlp.vim>
   
-* `vim-easy-align` formmat code with defined regular
+* `vim-easy-align` formmat code with defined regular <br>
   <https://github.com/junegunn/vim-easy-align.git>
   <https://github.com/junegunn/vim-easy-align>
 
