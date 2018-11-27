@@ -1,0 +1,53 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+127.0.0.1       redis-one-box
+10.1.193.105 minyi.mobvoi.com
+121.40.42.82 online-dev
+10.1.204.18 vm
+121.40.42.82 db-a
+127.0.0.1 mobvoi-email
+121.40.42.89 activiti
+121.40.42.89 config-center
+#10.86.205.10 config-center
+
+# db
+
+# ali
+127.0.0.1 rds2imyvu7fa3ev1365761781569.mysql.rds.aliyuncs.com
+#10.1.210.12 rds2imyvu7fa3ev1365761781569.mysql.rds.aliyuncs.com
+# aws
+127.0.0.1 prd-watch-0.cluster-cvdmtb0k71f6.us-west-2.rds.amazonaws.com
+# ucloud
+10.1.210.15 db_mysql_backend_0.uc.mobvoi-idc.com
+
+
+# mobvoi-account
+
+## localhost
+# 127.0.0.1 mobvoi-account
+
+## prod
+106.75.81.82 mobvoi-account
+10.1.210.22 desk
+
+# dev dialogue
+121.40.42.70 ali-hz-qa-alpha
+10.1.204.15 dev
+
+127.0.0.1 rds36bbr3rrzmzz.mysql.rds.aliyuncs.com
+106.75.81.82 awch-appstore 
+
+106.75.81.82 developer-cn
+106.75.81.82 developer-en
+106.75.81.82 db-u
+106.75.81.82 db-p
+10.1.210.15 real-dev
+
