@@ -1,0 +1,57 @@
+127.0.0.1	localhost
+127.0.1.1	zhjluo-desktop
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+10.1.193.105 minyi.mobvoi.com
+121.40.42.82 online-dev
+10.1.205.217 vm
+10.1.205.217 mobvoi-VM
+121.40.42.82 db-a
+127.0.0.1 mobvoi-email
+121.40.42.89 activiti
+121.40.42.89 config-center
+#10.86.205.10 config-center
+
+# db
+
+# ali
+127.0.0.1 rds2imyvu7fa3ev1365761781569.mysql.rds.aliyuncs.com
+#10.1.210.12 rds2imyvu7fa3ev1365761781569.mysql.rds.aliyuncs.com
+# aws
+127.0.0.1 prd-watch-0.cluster-cvdmtb0k71f6.us-west-2.rds.amazonaws.com
+# ucloud
+10.1.210.15 db_mysql_backend_0.uc.mobvoi-idc.com
+
+
+# mobvoi-account
+
+## localhost
+# 127.0.0.1 mobvoi-account
+
+## prod
+106.75.81.82 mobvoi-account
+106.75.81.82 push-unicorn
+10.1.210.22 desk
+
+# dev dialogue
+121.40.42.70 ali-hz-qa-alpha
+10.1.204.15 dev
+
+127.0.0.1 rds36bbr3rrzmzz.mysql.rds.aliyuncs.com
+106.75.81.82 awch-appstore 
+
+106.75.81.82 developer-cn
+106.75.81.82 developer-en
+106.75.81.82 db-u
+106.75.81.82 db-p
+10.1.210.15 db-dev
+10.1.210.15 real-dev
+10.1.210.15 redis-one-box
+10.1.205.9 gerrit
+10.1.205.130 mobvoi-oss
