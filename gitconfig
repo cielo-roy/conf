@@ -1,0 +1,20 @@
+[user]
+ name = zhjluo
+ email = zhjluo@mobvoi.com
+[alias]
+ co = checkout 
+ com = checkout master
+ cob = checkout -b
+ ci = commit
+ br = branch
+ st = status
+ pom = push origin HEAD:refs/for/master
+[core]
+	excludesfile = /Users/zhjluo/.gitignore
+ editor = vim
+[color]
+ status = auto
+ diff = auto
+ branch = auto
+ interactive = auto
+
