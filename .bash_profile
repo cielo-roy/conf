@@ -85,11 +85,11 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias cda='cd ~/workspace/backend/aws-onebox-script/'
+alias cda='cd ~/workspace/aws-onebox-script/'
 alias cdb='cd ~/workspace/backend'
 alias cdg='cd ~/workspace/gerrit/backend'
 alias cdd='cd ~/Downloads'
-alias cdu='cd ~/workspace/backend/ucloud-onebox-script'
+alias cdu='cd ~/workspace/ucloud-onebox-script'
 alias cdw='cd ~/workspace'
 alias cdp='cd ~/Pycharm*'
 alias cds='cd ~/sourcecode*'
@@ -106,15 +106,15 @@ alias ll='ls -lhF'
 alias desk='ssh zhjluo@desk'
 
 # msyql database alias
-alias tic='mycli -uticwear_account -pYzRZcBzM5g3JV96AYEaa_Bw8uMmN9VN0 ticwear_account'
-alias ov='mycli -uticwatch_service -pHpGDSfmmlU51R9aZ ticwatch_service'
-alias db='mycli -uroot -p123456 -hlocalhost'
-alias dbv='mycli -uroot -p123456 -hvm'
-alias dbg='mycli -ugenius -pMRvy57AHHgpU0D_i -hlocalhost genius_01'
-alias levis='mycli -ulevis -plevis -hlocalhost levis'
-alias genius='mycli -ugenius -pMRvy57AHHgpU0D_i -hdev genius_01'
-alias root='mycli -uroot -pMobvoi!297 -hdev'
-alias ass='mycli -utic_assistant -pPFMWt84WevbEQbQR tic_assistant'
+alias tic='mysql -uticwear_account -pYzRZcBzM5g3JV96AYEaa_Bw8uMmN9VN0 ticwear_account'
+alias ov='mysql -uticwatch_service -pHpGDSfmmlU51R9aZ ticwatch_service'
+alias db='mysql -uroot -p123456 -hlocalhost'
+alias dbv='mysql -uroot -p123456 -hvm'
+alias dbg='mysql -ugenius -pMRvy57AHHgpU0D_i -hlocalhost genius_01'
+alias levis='mysql -ulevis -plevis -hlocalhost levis'
+alias genius='mysql -ugenius -pMRvy57AHHgpU0D_i -hdev genius_01'
+alias root='mysql -uroot -pMobvoi!297 -hdev'
+alias ass='mysql -utic_assistant -pPFMWt84WevbEQbQR tic_assistant'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -153,9 +153,10 @@ export p='036f8d134381a759'
 export w='MN9PHQVGQ8EIJFQ8'
 
 alias mrun='cd ~/workspace/gerrit/backend && bazel build java/com/mobvoi/be/mobvoiaccount:mobvoi_account_main && bazel-bin/java/com/mobvoi/be/mobvoiaccount/mobvoi_account_main 9001'
-alias mysql='/usr/local/bin/mysql'
 alias mysqladmin='/usr/local/bin/mysqladmin'
 alias udev='LANG=c ssh zhjluo@uc'
 alias tdev='ssh mobvoi@10.86.205.10'
 
 alias real-dev="ssh zhjluo@real-dev"
+alias realdev="ssh zhjluo@real-dev"
+alias cdl="cd /home/servlets/logs"
