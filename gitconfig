@@ -8,9 +8,12 @@
  ci = commit
  br = branch
  st = status
- pom = push origin HEAD:refs/for/master
+ po = "!f() { git push origin HEAD:refs/for/\"$1\"; }; f"
+ pom = "push origin HEAD:refs/for/master"
+ pr = pull --rebase origin 
+ pr = pull --rebase origin master
 [core]
-	excludesfile = /Users/zhjluo/.gitignore
+	excludesfile = /home/zhjluo/.gitignore
  editor = vim
 [color]
  status = auto
