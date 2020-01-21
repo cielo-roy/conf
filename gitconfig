@@ -11,7 +11,7 @@
  po = "!f() { git push origin HEAD:refs/for/\"$1\"; }; f"
  pom = "push origin HEAD:refs/for/master"
  pr = pull --rebase origin 
- pr = pull --rebase origin master
+ prm = pull --rebase origin master
 [core]
 	excludesfile = /home/zhjluo/.gitignore
  editor = vim
