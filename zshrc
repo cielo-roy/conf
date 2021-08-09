@@ -127,14 +127,11 @@ alias -s gz='tar -xzvf'
 alias -s tgz='tar -xzvf'
 alias -s zip='unzip'
 alias -s bz2='tar -xjvf'
-alias atom='open -a atom'
 alias cdd='cd ~/Downloads'
 alias cdo='cd ~/workspace/ob/'
-alias cdoa='cd ~/workspace/ob/ocp-all-in-one'
-alias cdoa2='cd ~/workspace/ob2/ocp-all-in-one'
-alias cdr='cd /Users/shuhe/Desktop/日常文档'
 alias cds='cd ~/sourcecode*'
 alias cdw='cd ~/workspace'
+
 alias urldecode='python -c "import sys, urllib as ul; \
     print ul.unquote_plus(sys.argv[1])"'
 alias urlencode='python -c "import sys, urllib as ul; \
@@ -148,20 +145,6 @@ alias redis='brew services start redis'
 alias l='ls -l'
 alias tailf='tail -f'
 
-alias dev='ssh admin@100.81.152.105'
-alias dev129='ssh root@11.166.77.129'
-alias dev148='ssh root@100.88.121.148'
-
-alias tdev-68='ssh admin@tdev-68'
-alias tdev-69='ssh admin@tdev-69'
-alias tdev-70='ssh admin@tdev-70'
-alias tdev-22='ssh root@11.166.81.22'
-alias tdev-112='ssh root@100.88.118.112'
-
-alias sh_db='mysql -u 'root@ocp_meta#obocp' -proot -P2888 -h10.101.194.179 shuhe_meta'
-alias db='mysql -h10.101.194.179 -P2888 -uroot@ocp_meta#obocp -proot'
-alias db_root='mysql -h10.101.194.179 -P2888 -uroot@sys -pbugaosuni'
-alias db_sync="mysql -h10.101.194.179 -P2888 -uroot@ocp_meta#obocp -proot -Dshuhe_25x_meta -e \"update config_properties set value='http://$(ipconfig getifaddr en0):8080' where \`key\`='ocp.site.url'\"; "
 alias mcp="mvn clean package -Dmaven.test.skip=true"
 alias as="java -jar /opt/arthas/arthas-boot.jar"
 alias k="kubectl"
@@ -194,6 +177,4 @@ prompt_context() {}
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
 export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.aliyun.com/homebrew/homebrew-bottles
